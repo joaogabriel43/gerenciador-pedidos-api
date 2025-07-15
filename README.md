@@ -17,9 +17,9 @@
   <a href="https://github.com/joaogabriel43/gerenciador-pedidos/actions/workflows/ci.yml">
     <img src="https://github.com/joaogabriel43/gerenciador-pedidos/actions/workflows/ci.yml/badge.svg" alt="CI Status">
   </a>
-  <a href="https://codecov.io/gh/joaogabriel43/gerenciador-pedidos">
-    <img src="https://codecov.io/gh/joaogabriel43/gerenciador-pedidos/branch/main/graph/badge.svg" alt="Code Coverage">
-  </a>
+ <a href="https://github.com/joaogabriel43/gerenciador-pedidos/actions/workflows/ci.yml">
+  <img src="https://github.com/joaogabriel43/gerenciador-pedidos/actions/workflows/ci.yml/badge.svg" alt="CI Status">
+</a>
   <a href="LICENSE.md">
     <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT">
   </a>
