@@ -1,6 +1,6 @@
 <p align="center">
   <a href="#" target="_blank">
-  <img src="https://raw.githubusercontent.com/joaogabriel43/gerenciador-pedidos/main/.github/assets/logo.jpg" alt="Project Logo" width="120">
+  <img src="https://raw.githubusercontent.com/joaogabriel43/gerenciador-pedidos-api/main/.github/assets/logo.jpg" alt="Project Logo" width="120">
   </a>
 </p>
 
@@ -14,12 +14,9 @@
   <img src="https://img.shields.io/badge/Java-17-blue.svg" alt="Java 17">
   <img src="https://img.shields.io/badge/Spring%20Boot-3.3.1-brightgreen.svg" alt="Spring Boot 3.3.1">
   <img src="https://img.shields.io/badge/Maven-3.9.6-red.svg" alt="Maven">
-  <a href="https://github.com/joaogabriel43/gerenciador-pedidos/actions/workflows/ci.yml">
-    <img src="https://github.com/joaogabriel43/gerenciador-pedidos/actions/workflows/ci.yml/badge.svg" alt="CI Status">
+  <a href="https://github.com/joaogabriel43/gerenciador-pedidos-api/actions/workflows/ci.yml">
+    <img src="https://github.com/joaogabriel43/gerenciador-pedidos-api/actions/workflows/ci.yml/badge.svg" alt="CI Status">
   </a>
- <a href="https://github.com/joaogabriel43/gerenciador-pedidos/actions/workflows/ci.yml">
-  <img src="https://github.com/joaogabriel43/gerenciador-pedidos/actions/workflows/ci.yml/badge.svg" alt="CI Status">
-</a>
   <a href="LICENSE.md">
     <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT">
   </a>
@@ -44,13 +41,13 @@ Este projeto é uma **API RESTful** completa para um sistema de gerenciamento de
 
 ## 🏛️ Arquitetura e Decisões
 
-[cite_start]A estrutura do projeto segue uma filosofia de design que prioriza a clareza, manutenibilidade e as melhores práticas da indústria. [cite: 4, 809]
+A estrutura do projeto segue uma filosofia de design que prioriza a clareza, manutenibilidade e as melhores práticas da indústria.
 
-- **Arquitetura em Camadas (Separation of Concerns):** Aderimos a uma estrita separação de responsabilidades. [cite_start]`Controllers` lidam apenas com a camada HTTP, `Services` orquestram a lógica de negócio e `Repositories` gerenciam o acesso a dados. [cite: 1754, 1826] Essa separação impede o acoplamento e torna o sistema mais fácil de entender e modificar.
+- **Arquitetura em Camadas (Separation of Concerns):** Aderimos a uma estrita separação de responsabilidades. `Controllers` lidam apenas com a camada HTTP, `Services` orquestram a lógica de negócio e `Repositories` gerenciam o acesso a dados. Essa separação impede o acoplamento e torna o sistema mais fácil de entender e modificar.
 - **Padrão DTO (Data Transfer Object):** Utilizamos DTOs para criar um contrato claro para a API, desacoplando a camada web das entidades de domínio e fornecendo uma camada extra de segurança contra vulnerabilidades de "Mass Assignment".
 - **Tratamento de Exceções Centralizado:** Um `@ControllerAdvice` global captura exceções customizadas (`ResourceNotFoundException`, `BusinessRuleException`), garantindo que a API retorne respostas de erro HTTP padronizadas e consistentes.
 - **Validação e Normalização de Dados:** Implementamos lógica de normalização de dados na camada de persistência (`@PrePersist`, `@PreUpdate`) para evitar a duplicidade de informações (ex: "Eletrônicos" e "eletronicos"), garantindo a integridade dos dados.
-- [cite_start]**Qualidade Garantida por Testes:** Acreditamos que testes são uma parte integral do desenvolvimento. [cite: 814] A suíte de testes de unidade com **JUnit 5 e Mockito** valida cada peça da lógica de negócio de forma isolada, permitindo refatorações seguras e desenvolvimento ágil.
+- **Qualidade Garantida por Testes:** Acreditamos que testes são uma parte integral do desenvolvimento. A suíte de testes de unidade com **JUnit 5 e Mockito** valida cada peça da lógica de negócio de forma isolada, permitindo refatorações seguras e desenvolvimento ágil.
 
 ---
 
@@ -83,9 +80,9 @@ Configure as credenciais do seu banco de dados no arquivo `src/main/resources/ap
 
 ### 3. Executando a Aplicação
 ```bash
-# Clone o repositório
-git clone [https://github.com/joaogabriel43/gerenciador-pedidos.git](https://github.com/joaogabriel43/gerenciador-pedidos.git)
-cd gerenciador-pedidos
+# Clone o repositório (substitua pelo nome correto do seu repositório se for diferente)
+git clone [https://github.com/joaogabriel43/gerenciador-pedidos-api.git](https://github.com/joaogabriel43/gerenciador-pedidos-api.git)
+cd gerenciador-pedidos-api
 
 # Compile e execute os testes
 mvn clean install
@@ -134,7 +131,7 @@ _Corpo para `POST` / `PUT`: `{ "nome": "Periféricos" }`_
 
 Contribuições são a força vital de projetos open source e são **extremamente bem-vindas!**
 
-[cite_start]Este projeto adere ao **Contributor Covenant** como seu Código de Conduta. [cite: 2401] Espera-se que todos na comunidade sigam estas diretrizes.
+Este projeto adere ao **Contributor Covenant** como seu Código de Conduta. Espera-se que todos na comunidade sigam estas diretrizes.
 
 Para contribuir, por favor, leia nosso **[GUIA DE CONTRIBUIÇÃO](CONTRIBUTING.md)**, que detalha nosso processo de desenvolvimento, padrões de commit e fluxo de Pull Request.
 
