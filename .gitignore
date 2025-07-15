@@ -1,0 +1,34 @@
+# Arquivos de Build do Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+
+# Arquivos de Log
+*.log
+logs/
+
+# Arquivos da IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+nbproject/
+/build/
+/nbbuild/
+/dist/
+/nbdist/
+.nb-gradle/
+
+# Arquivos do Sistema Operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos de configuração do VS Code
+.vscode/
+
