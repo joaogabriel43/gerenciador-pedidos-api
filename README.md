@@ -1,6 +1,6 @@
 <p align="center">
   <a href="#" target="_blank">
-  <img src="https://raw.githubusercontent.com/joaogabriel43/gerenciador-pedidos-api/main/.github/assets/logo.jpg" alt="Project Logo" width="120">
+  <img src="https://raw.githubusercontent.com/joaogabriel43/gerenciador-pedidos-api/main/.github/assets/logo.png" alt="Project Logo" width="120">
   </a>
 </p>
 
